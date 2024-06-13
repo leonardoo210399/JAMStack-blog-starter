@@ -5,7 +5,6 @@ author: Aditya
 date: '2024-06-13T14:59:56+05:30'
 tags:
   - post
-  - featured
 image: /assets/blog/screenshot-2024-06-13-2.16.01-pm.png
 imageAlt: idk
 ---
