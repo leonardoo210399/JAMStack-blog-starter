@@ -1,13 +1,15 @@
----
-title: My First Article
-author: Kevin Powell
-date: 2021-05-01
-tags: ["post", "featured"]
-image: /assets/blog/article-1.jpg
-imageAlt: This is a test
-description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?
+
 ---
 
+title: "LeetCode Problem 1: Two Sum - A Comprehensive Guide"
+summary: "Explore various approaches to solving the 'Two Sum' problem on LeetCode, including brute force and hash table methods."
+date: "Jun 17 2024"
+draft: false
+tags:
+- Blind 75
+- Algorithms
+- Data Structures
+---
 
 **Summary:** Explore various approaches to solving the 'Two Sum' problem on LeetCode, including brute force and hash table methods.
 
@@ -59,7 +61,6 @@ The simplest way to solve this problem is by using two nested loops to check eve
                 return [i, j]</code></pre>
     <button class="copy-button" onclick="copyCode(this)">Copy</button>
 </div>
-<iframe height="300px" width="100%" src="https://repl.it/@username/two-sum-brute-force-python?lite=true"></iframe>
 </details>
 
 <details>
@@ -76,7 +77,6 @@ The simplest way to solve this problem is by using two nested loops to check eve
 }</code></pre>
     <button class="copy-button" onclick="copyCode(this)">Copy</button>
 </div>
-<iframe height="300px" width="100%" src="https://jsfiddle.net/username/two-sum-brute-force-javascript/embedded/js,html,css,result/"></iframe>
 </details>
 
 **Time Complexity:** `O(n^2)`
@@ -109,7 +109,6 @@ To optimize the solution, we can use a hash table to store the numbers and their
             return [i, hash_table[complement]]</code></pre>
     <button class="copy-button" onclick="copyCode(this)">Copy</button>
 </div>
-<iframe height="300px" width="100%" src="https://repl.it/@username/two-sum-two-pass-python?lite=true"></iframe>
 </details>
 
 <details>
@@ -129,7 +128,6 @@ To optimize the solution, we can use a hash table to store the numbers and their
 }</code></pre>
     <button class="copy-button" onclick="copyCode(this)">Copy</button>
 </div>
-<iframe height="300px" width="100%" src="https://jsfiddle.net/username/two-sum-two-pass-javascript/embedded/js,html,css,result/"></iframe>
 </details>
 
 **Time Complexity:** `O(n)`
@@ -162,7 +160,6 @@ We can further optimize the solution by combining the two passes into one. As we
         hash_table[num] = i</code></pre>
     <button class="copy-button" onclick="copyCode(this)">Copy</button>
 </div>
-<iframe height="300px" width="100%" src="https://repl.it/@username/two-sum-one-pass-python?lite=true"></iframe>
 </details>
 
 <details>
@@ -180,7 +177,6 @@ We can further optimize the solution by combining the two passes into one. As we
 }</code></pre>
     <button class="copy-button" onclick="copyCode(this)">Copy</button>
 </div>
-<iframe height="300px" width="100%" src="https://jsfiddle.net/username/two-sum-one-pass-javascript/embedded/js,html,css,result/"></iframe>
 </details>
 
 **Time Complexity:** `O(n)`
@@ -218,3 +214,18 @@ function copyCode(button) {
 
 .copy-button {
     position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.5em;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 0.8em;
+    border-radius: 3px;
+}
+
+.copy-button:hover {
+    background: #45a049;
+}
+</style>
